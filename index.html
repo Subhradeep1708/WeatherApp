@@ -12,7 +12,7 @@
 
 
 
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/favicon-16x16.png">
     <link rel="stylesheet" href="style.css">
 
     <title>Weather</title>
@@ -84,25 +84,25 @@
                 document.querySelector(".wind").innerHTML = Math.round(data.wind.speed) + " Km/h"
 
                 if (data.weather[0].main == "Clouds") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/clouds.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/clouds.png"
                 }
                 else if (data.weather[0].main == "Rain") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/rain.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/rain.png"
                 }
                 else if (data.weather[0].main == "Drizzle") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/drizzle.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/drizzle.png"
                 }
                 else if (data.weather[0].main == "Mist") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/mist.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/mist.png"
                 }
                 else if (data.weather[0].main == "Clear") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/clear.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/clear.png"
                 }
                 else if (data.weather[0].main == "Snow") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/snow.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/snow.png"
                 }
                 else if (data.weather[0].main == "Haze") {
-                    weatherIcon.src = "https://github.com/Subhradeep1708/WeatherApp/1779807.png"
+                    weatherIcon.src = "https://raw.githubusercontent.com/Subhradeep1708/WeatherApp/main/1779807.png"
                 }
 
                 document.querySelector(".weather").style.display = "block"
