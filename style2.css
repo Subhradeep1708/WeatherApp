@@ -123,3 +123,29 @@ body {
         margin-bottom: 20px;
     }
 }
+/* Add this CSS at the end of your existing CSS */
+
+@media only screen and (max-width: 600px) {
+  .card {
+    width: 90%;
+    padding: 30px 25px;
+  }
+
+  .weather h1 {
+    font-size: 60px;
+  }
+
+  .weather h2 {
+    font-size: 35px;
+  }
+
+  .details {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .col {
+    margin-bottom: 20px;
+  }
+}
+
