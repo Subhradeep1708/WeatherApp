@@ -148,4 +148,17 @@ body {
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width: 600px) {
+  .search input {
+    padding: 10px 15px; /* Adjust padding to fit within the width */
+    font-size: 16px; /* Reduce font size for better fit */
+  }
 
+  .search button {
+    width: 50px; /* Decrease button width */
+  }
+
+  .search button img {
+    width: 12px; /* Adjust image size accordingly */
+  }
+}
